@@ -50,7 +50,8 @@ fi
 nitrogen --restore &
 picom -i 1.0 &
 #pulseaudio --start &
-exec i3
+#exec i3
+exec bspwm
 pulseaudio --kill &
 pulseaudio --start &
 
